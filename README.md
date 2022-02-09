@@ -1,6 +1,6 @@
 # proxysql-healtcheck
 
-## Setting healthceck with supervisor
+## run healthceck with supervisor
 ```
 [program:proxysql-healthcheck]
 command=/opt/proxysql_healthcheck/proxysql-healthcheck {{ mysql_user }} {{ mysql_pass }} {{ hosts_server }}:port dbname
