@@ -1,6 +1,6 @@
-# proxysql-healtcheck
+# Proxysql-healtcheck
 
-## run healthceck with supervisor
+## Run healthceck with supervisor
 ```
 [program:proxysql-healthcheck]
 command=/opt/proxysql_healthcheck/proxysql-healthcheck {{ mysql_user }} {{ mysql_pass }} {{ hosts_server }}:port dbname
@@ -17,7 +17,7 @@ redirect_stderr=true
 stdout_logfile=/var/log/supervisor/proxysql-healthcheck.log
 ```
 
-# how to build and release
+# How to build and release
 
 Run the init command to create an example .goreleaser.yaml file
 
