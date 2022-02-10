@@ -17,7 +17,7 @@ redirect_stderr=true
 stdout_logfile=/var/log/supervisor/proxysql-healthcheck.log
 ```
 
-# How to build and release
+## How to build and release
 
 Run the init command to create an example .goreleaser.yaml file
 
